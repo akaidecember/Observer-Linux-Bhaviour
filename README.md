@@ -1,4 +1,3 @@
-# Observer-Linux-Bhaviour
 README.txt for observer.c
 Assignment 1, CSC 139#03
 Anshul Kuamr Shandilya
