@@ -1,5 +1,7 @@
 /*********************************************************************************************************************************
-A program writen in C language to explore and observe Linux behaviour. This program shows us the characteristics of the              Linux Kernel, processes, memory and other resources. For this, we have accessed the /proc file where all the                        information lies.
+A program writen in C language to explore and observe Linux behaviour. This program shows us the characteristics of the
+Linux Kernel, processes, memory and other resources. For this, we have accessed the /proc file where all the
+information lies.
 
 Created by: Anshul Kumar Shandilya
 CSC 139, 
