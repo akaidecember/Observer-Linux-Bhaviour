@@ -1,0 +1,44 @@
+Shandilya, Anshul Kumar
+CSC 139, #03
+Prof. Yuan Cheng
+2/18/2020
+--------------------------------------
+
+1. What is the CPU model name?
+	Using : cat /proc/cpuinfo
+	Intel(R) Xeon(R) Silver 4210 CPU @ 2.20GHz
+	
+2. What version of the Linux Kernel is being used?
+	Using : cat/proc/version
+	Linux version 2.6.32-754.24.3.el6.i686 (mockbuild@x86-02.bsys.centos.org) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-23) (GCC) ) #1 SMP Thu Nov 14 16:00:38 UTC 2019
+
+3. How long has it been since the system was last booted?
+	Using : cat /proc/uptime
+	4828085.61 or 55 days, 21 hours, 8 minutes and 5 seconds (using online tool)
+	
+4. How much of the total CPU time has been spent executing in USER, SYSTEM and IDLE mode?
+	Using : cat /proc/stat
+	USER - 1072483282
+	SYSTEM - 9330347
+	IDLE - 2490595651
+	
+5. How much memort is configured into it?
+	Using : cat /proc/meminfo
+	Total Memory - 8180520 kb or approx 8 gb
+	
+6. How much memory is currently available on it?
+	Using : cat /proc/meminfo
+	Available Memory - 4855784 kb or approx 4.5 gb
+	
+7. How many disk read and write requests have beem made?
+	Using : cat /proc/diskstats
+	Read - 2832697
+	Write - 3039287
+	
+8. How many context switches have been performed?
+	Using : cat /proc/stat
+	Number of context switches - 1043436822
+	
+9. How many processes have been created since the system was last booted?
+	Using : cat /proc/stat
+	Number of processes - 16862806
